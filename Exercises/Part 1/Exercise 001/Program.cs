@@ -10,7 +10,7 @@ namespace Exercise_001
     {
         static void Main(string[] args)
         {
-           // your code here
+           Console.WriteLine("Hello World!");
         }
     }
 }
