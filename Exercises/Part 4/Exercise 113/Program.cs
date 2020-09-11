@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_113
+namespace exercise_113
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      // IMPLEMENT YOUR CODE IN HERE!
+      // Remember also to create the file Book.cs and class in it!
+
     }
+  }
 }
+
+
+
+

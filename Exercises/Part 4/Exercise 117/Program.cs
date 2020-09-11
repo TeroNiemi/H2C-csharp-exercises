@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
-namespace Exercise_117
+namespace exercise_117
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      // Ask the user for the file name and print the content of the file
+
+      
     }
+  }
 }

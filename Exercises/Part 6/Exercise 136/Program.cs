@@ -1,15 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_136
+namespace exercise_136
 {
-    class Program
+  public class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      Person ada = new Person("Ada Lovelace");
+      Person jack = new Person("Jack The Ripper");
+      Person mike = new Person("Mike The Incredible Magic Mouse");
+
+      HowManyNames(ada);
+      HowManyNames(jack);
+      HowManyNames(mike);
     }
+
+    // Do something here
+  }
 }

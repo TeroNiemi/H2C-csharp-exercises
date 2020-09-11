@@ -1,15 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_098
+namespace exercise_98
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      // Create Product.cs and follow the instructions.
+      // You can test your class with this.
+      
+
     }
+  }
 }
+
+
+

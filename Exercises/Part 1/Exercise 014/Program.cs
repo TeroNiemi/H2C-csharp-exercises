@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_014
+namespace exercise_14
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      Console.WriteLine("Give me the truth!");
+      // Write your code here:
+
     }
+  }
 }

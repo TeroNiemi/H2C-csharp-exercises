@@ -1,15 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_061
+namespace exercise_61
 {
-    class Program
+  class Program
+  {
+    public static void Main(String[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
+
+    public static void PrintStars(int number)
+    {
+
+    }
+
+    public static void PrintSpaces(int number)
+    {
+
+    }
+
+    public static void PrintRightTriangle(int size)
+    {
+
+    }
+
+    public static void ChristmasTree(int height)
+    {
+
+    }
+  }
 }

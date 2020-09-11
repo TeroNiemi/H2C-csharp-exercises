@@ -1,15 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_063
+
+namespace exercise_63
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+      List<int> list = new List<int>();
+      while (true)
+      {
+        int input = Convert.ToInt32(Console.ReadLine());
+        if (input == 0)
         {
+          break;
         }
+
+        list.Add(input);
+      }
+      Console.WriteLine(list[0]);
     }
+
+  }
 }

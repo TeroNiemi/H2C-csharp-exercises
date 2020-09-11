@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_134
+namespace exercise_134
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      GradeRegister register = new GradeRegister();
+
+      UserInterface ui = new UserInterface(register);
+      ui.Start();
     }
+  }
 }

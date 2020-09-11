@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_111
+namespace exercise_111
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      // IMPLEMENT YOUR CODE IN HERE!
+      List<PersonalInformation> list = new List<PersonalInformation>();
+
     }
+  }
 }
+
+
+
+

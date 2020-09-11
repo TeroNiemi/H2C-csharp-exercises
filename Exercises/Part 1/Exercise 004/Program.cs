@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_004
+namespace exercise_04
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            string message = "Passport and floss!";
+            Console.WriteLine(message);
         }
     }
 }

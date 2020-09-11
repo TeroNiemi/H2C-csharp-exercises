@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_057
+namespace exercise_57
 {
-    class Program
+  class Program
+  {
+    public static int Sum(int number1, int number2, int number3, int number4)
     {
-        static void Main(string[] args)
-        {
-        }
+      // write your code here
+      // remember to include return (at the end)!
     }
+
+    public static void Main(String[] args)
+    {
+      int answer = Sum(4, 3, 6, 1);
+      Console.WriteLine("Sum: " + answer);
+    }
+  }
 }

@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_056
+namespace exercise_56
 {
-    class Program
+  class Program
+  {
+    public static void Main(String[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
+
+    // Write your method here:
+
+  }
 }

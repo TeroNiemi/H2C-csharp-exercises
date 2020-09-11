@@ -1,15 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_097
+namespace exercise_97
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      // Create Whistle.cs and follow the instructions.
+      // You can test your Whistle class with these.
+      Whistle duckWhistle = new Whistle("Kvaak");
+      Whistle roosterWhistle = new Whistle("Peef");
+
+      duckWhistle.Sound();
+      roosterWhistle.Sound();
+      duckWhistle.Sound();
+
     }
+  }
 }
+
+
+

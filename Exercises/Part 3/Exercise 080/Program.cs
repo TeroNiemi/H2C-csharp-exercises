@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_080
+namespace exercise_80
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      int[] numbers = { 5, 1, 3, 4, 2 };
+      int sum = SumOfNumbersInArray(numbers);
+      Console.WriteLine(sum);
+
     }
+
+    public static int SumOfNumbersInArray(int[] numbers) {
+
+      return 0;
+    }
+
+  }
 }
+
+

@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_058
+namespace exercise_58
 {
-    class Program
+  class Program
+  {
+    public static void Main(String[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      int answer = Smallest(2, 7);
+      Console.WriteLine("Smallest: " + answer);
     }
+
+    // Write your method here:
+    
+  }
 }

@@ -1,15 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Exercise_105
+namespace exercise_105
 {
-    class Program
+  class Program
+  {
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+      Statistics statistics = new Statistics();
+      statistics.AddNumber(3);
+      statistics.AddNumber(5);
+      statistics.AddNumber(1);
+      statistics.AddNumber(2);
+      Console.WriteLine("Count: " + statistics.count);
+      Console.WriteLine("Sum: " + statistics.sum);
     }
+  }
 }
+
+
+
