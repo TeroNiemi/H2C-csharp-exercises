@@ -6,7 +6,7 @@ namespace exercise_02
     {
         public static void Main(string[] args)
         {
-            // Your code here:
+            // Your code here
         }
     }
     

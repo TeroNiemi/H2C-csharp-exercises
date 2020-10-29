@@ -6,7 +6,11 @@ namespace exercise_10
     {
         public static void Main(string[] args)
         {
-            // Write your code here:
+          
+
+           Console.Write(kdfkfj);
+
+
 
         }
     }
