@@ -6,9 +6,20 @@ namespace exercise_24
   {
     public static void Main(string[] args)
     {
+    
+     
+       Console.WriteLine("Your speed:");
+       int speed = Convert.ToInt32(Console.ReadLine());
+            
 
-      // Write your code here:
+        if (speed > 120)
+       {
+        Console.WriteLine("Speeding!");
+
+        }
+      Console.ReadKey();
+
       
     }
-  }
+   }
 }
