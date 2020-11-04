@@ -6,8 +6,18 @@ namespace exercise_15
   {
     public static void Main(string[] args)
     {
+       
+       string word = "This is a masterpiece!";
+       int number = 42;
+       double fig = 3.1415;
+       bool answer = true;
 
-      // Write your code here:
+        Console.WriteLine(word);
+        Console.WriteLine(number);
+        Console.WriteLine(fig);
+        Console.WriteLine(answer);
+
+        Console.ReadKey();
 
     }
   }
