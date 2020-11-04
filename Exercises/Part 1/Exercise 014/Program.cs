@@ -6,8 +6,20 @@ namespace exercise_14
   {
     public static void Main(string[] args)
     {
-      Console.WriteLine("Give me the truth!");
-      // Write your code here:
+       
+     
+            bool answer = true;
+            Console.WriteLine("Give me the truth!");
+            Console.WriteLine(answer);
+            Console.WriteLine("True");
+
+            answer = false;
+            Console.WriteLine("Give me the truth!");
+            Console.WriteLine(answer);
+            Console.WriteLine("False");
+            
+
+            Console.ReadKey();
 
     }
   }
