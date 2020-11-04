@@ -7,7 +7,20 @@ namespace exercise_16
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+      
+        int num1 = 2;
+       
+      Console.WriteLine("How many days?");
+      Console.WriteLine(num1*86400);
+
+      int num2 = 7;
+      Console.WriteLine("How many days?");
+      Console.WriteLine(num2*86400);
+      
+           
+
+            Console.ReadKey();
+
 
     }
   }
