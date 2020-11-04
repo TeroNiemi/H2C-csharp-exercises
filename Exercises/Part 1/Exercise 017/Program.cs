@@ -7,7 +7,6 @@ namespace exercise_17
     public static void Main(string[] args)
     {
 
-      
        Console.WriteLine("Give the first number!");
        int num1 = Convert.ToInt32(Console.ReadLine());
       
@@ -16,12 +15,12 @@ namespace exercise_17
 
             Console.WriteLine("The sum is: " + (num1 + num2));
     
-
-
-
-
-
       Console.ReadKey();
+
+          
+    
+
+      
     }
   }
 }
