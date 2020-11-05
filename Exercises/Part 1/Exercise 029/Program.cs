@@ -12,12 +12,17 @@ namespace exercise_29
     Console.WriteLine("Give the second number!");
        int num2 = Convert.ToInt32(Console.ReadLine());
 
+         
          if (num1 > num2) {
         Console.WriteLine("The larger number is:" + num1);
          }
         else if (num1 < num2) {
         Console.WriteLine("The larger number is:" + num2);
+         
         }
+        else if (num1 == num2){
+           Console.WriteLine("They are equal!");
+            }
       Console.ReadKey();
 
     }
