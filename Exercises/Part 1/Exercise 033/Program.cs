@@ -6,8 +6,27 @@ namespace exercise_33
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            string abc = "Potato";
+            string xyz = "Potato"; 
 
+            Console.WriteLine("Give the first string:");
+            abc = Console.ReadLine();
+
+            Console.WriteLine("Give the second string:");
+            xyz = Console.ReadLine();
+
+           if (abc == xyz){
+            Console.WriteLine("Echo!");
+            }
+
+           else {
+            Console.WriteLine("Nope!");
+            }
+        
+
+            Console.ReadKey();
+
+            
     }
   }
 }
