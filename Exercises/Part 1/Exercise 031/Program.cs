@@ -12,7 +12,7 @@ namespace exercise_31
 
         
 
-            if (remainder ==0) {
+            if (remainder == 0) {
         Console.WriteLine("It is even.");
         }
 
