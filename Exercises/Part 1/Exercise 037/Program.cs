@@ -6,8 +6,34 @@ namespace exercise_37
   {
     public static void Main(string[] args)
     {
-      int sum = 0;
-      // Write your code here:
+            int attempts = 0;
+        
+       while (true)
+       {
+            Console.WriteLine("Input an integer, 0 quits");
+            int number = Convert.ToInt32(Console.ReadLine());
+            
+            if (number == 0)
+            {
+                break;
+            }
+              
+            else 
+          
+
+            {
+           
+              attempts++;
+             
+            }
+             Console.WriteLine("Total amount of numbers: " + attempts + "." );      
+       }    
+            
+           
+      
+            
+
+      
 
     }
   }
