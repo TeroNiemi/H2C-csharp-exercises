@@ -6,7 +6,13 @@ namespace exercise_26
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+        Console.WriteLine("Give your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            if (age == 1899);
+            
+           {
+           Console.WriteLine("You're old");     
+           }
 
     }
   }
