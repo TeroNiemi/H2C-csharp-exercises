@@ -7,7 +7,7 @@ namespace exercise_16
     public static void Main(string[] args)
     {
      Console.Write("How many days? ");
-     var num1 = Convert.ToInt32(Console.ReadLine());
+     int  num1 = Convert.ToInt32(Console.ReadLine());
      int result = num1* 24 * 60 * 60;
      Console.WriteLine( result );
 
