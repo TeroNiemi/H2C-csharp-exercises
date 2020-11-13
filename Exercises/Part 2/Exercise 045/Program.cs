@@ -8,6 +8,13 @@ namespace exercise_45
     {
 
       // Write your code here:
+      Console.WriteLine("Please give an integer");
+           int num = Convert.ToInt32(Console.ReadLine());
+            while(num<6)
+            {
+                Console.WriteLine(num);
+                num++;
+            }
 
     }
   }
