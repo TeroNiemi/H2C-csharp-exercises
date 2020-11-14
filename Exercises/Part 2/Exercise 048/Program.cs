@@ -8,7 +8,12 @@ namespace exercise_48
     {
 
       // Write your code here:
- 
+       Console.WriteLine("Give numbers:");
+       int numb = Convert.ToInt32(Console.ReadLine());
+            
+        
+
     }
+       
   }
 }
