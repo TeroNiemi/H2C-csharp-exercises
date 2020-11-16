@@ -12,6 +12,7 @@ namespace exercise_31
             {
             Console.Write("It is even. ");
             }
+
             else
             {
             Console.Write("It is odd. ");
