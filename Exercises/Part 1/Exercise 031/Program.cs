@@ -6,8 +6,17 @@ namespace exercise_31
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            Console.WriteLine("Give a number:");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            if (num1 % 2 == 0)
+            {
+            Console.Write("It is even. ");
+            }
+            else
+            {
+            Console.Write("It is odd. ");
 
+            }
     }
   }
 }
