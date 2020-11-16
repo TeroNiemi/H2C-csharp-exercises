@@ -6,7 +6,8 @@ namespace exercise_30
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+            Console.WriteLine("Give your percent");
+            int perc = Convert.ToInt32(Console.ReadLine());
 
     }
   }
