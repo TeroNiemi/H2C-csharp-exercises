@@ -13,10 +13,10 @@ namespace exercise_53
     }
 
     // Write your method here:
-     public static void Division(double numerator, double denominator)
+     public static void Division(int numerator, int denominator)
      { 
       
-        Console.WriteLine(numerator /denominator);
+        Console.WriteLine(Convert.ToDouble(numerator /denominator));
      }
   }
 }
