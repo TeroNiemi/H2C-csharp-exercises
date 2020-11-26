@@ -6,7 +6,8 @@ namespace exercise_55
   {
     public static void Main(String[] args)
     {
-       Console.WriteLine(NumberUno(5));
+       int number = NumberUno(5);
+       Console.WriteLine(number);
       
     }
 
