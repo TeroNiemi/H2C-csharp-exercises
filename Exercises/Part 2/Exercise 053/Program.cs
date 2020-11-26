@@ -7,7 +7,7 @@ namespace exercise_53
     public static void Main(String[] args)
     {
       // Call your method here:
-         Division(13, 2);
+         Division(12, 2);
             Console.ReadKey();
 
     }
