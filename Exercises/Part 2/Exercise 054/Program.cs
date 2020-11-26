@@ -11,7 +11,7 @@ namespace exercise_54
            int start = Convert.ToInt32(Console.ReadLine());
             int last = Convert.ToInt32(Console.ReadLine());
            
-            DivisibleByThreeInRange(int x, int y);
+            DivisibleByThreeInRange(start, last);
    
     }
 
@@ -30,7 +30,7 @@ namespace exercise_54
             beginning = y;
                 end = x;
             }
-       else if (x == y)
+       else 
             {
             Console.WriteLine("Beginning and end are same");
             }

@@ -11,6 +11,24 @@ namespace exercise_59
     }
 
     // Write your method here:
+    public static int Greatest(int a, int b, int c) 
+    { int greatest =0;
+      
+       if (a > b  && a > c)
+        {
+            greatest = a;
+       }
+       else if (b >a && b > c)
+       {
+         greatest = b;
+       }
+       else if (c >a && c > b)
+       {
+         greatest = c;
+       }
+       return greatest;
+    }
+        
 
   }
 }
