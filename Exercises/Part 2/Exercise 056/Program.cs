@@ -6,12 +6,13 @@ namespace exercise_56
   {
     public static void Main(String[] args)
     {
-
+      Console.WriteLine(MyReturnString());
     }
 
     // Write your method here:
-     public static string Word()
+     public static string MyReturnString()
         {
+            return "Maintain safe distance!";
         }
 
   }
