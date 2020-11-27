@@ -842,11 +842,9 @@ A few examples of the expected behaviour:
 ```
 
 ### NOTICE!
-From now on, the exercises might be in multiple sections **in the instructions**, to make it easier to comprehend. In the end, you should still have **only one program per exercise** to return.  
+From now on, the exercises might be in multiple sections **in the instructions**, to make it easier to comprehend. In the end, you should still have **only one program per exercise** to return.  All sections are needed to count exercise as DONE.
 
-Each section is counted separately, when calculating the total amount of exercises done. For example, the next exercise with 2 sections, counts as 2 exercises in the total sum you have done. 
 
-Hint: The last section always shows what the program should do in total. When all the tests pass, you have done all the sections.
 
 #### Exercise_47
 
