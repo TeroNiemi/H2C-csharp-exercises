@@ -8,9 +8,6 @@ namespace exercise_10
         {
           
 
-           Console.Write(kdfkfj);
-
-
 
         }
     }

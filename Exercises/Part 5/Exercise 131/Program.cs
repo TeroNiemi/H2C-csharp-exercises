@@ -9,6 +9,8 @@ namespace exercise_131
     {
       List<Item> items = new List<Item>();
 
+           
+
       // Ask for input as shown in the exercise.
 
       // The end printing is ready, don't touch this

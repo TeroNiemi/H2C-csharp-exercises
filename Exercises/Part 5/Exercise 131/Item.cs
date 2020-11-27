@@ -26,4 +26,3 @@ namespace exercise_131
     }
 
   }
-}

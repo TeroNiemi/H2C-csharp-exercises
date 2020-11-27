@@ -6,7 +6,7 @@ namespace exercise_11
     {
         public static void Main(string[] args)
         {
-            int dayCount = 100;
+            int dayCount = 200;
             double hoursToLunch = 1;
             string statement = "Are you sure?";
 
