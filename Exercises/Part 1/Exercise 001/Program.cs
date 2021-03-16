@@ -7,7 +7,7 @@ namespace exercise_01
         public static void Main(string[] args)
         {
            
-           Console.WriteLine("Hello World!");
+           // type your code here
 
 
         }
